@@ -45,7 +45,7 @@ DEFAULT: '8px',
 <a href="#" class="text-2xl font-['Pacifico'] text-primary">Harshil Patel</a>
 <div class="hidden md:flex items-center space-x-8">
 <a href="#about" class="hover:text-primary transition-colors">About</a>
-<!-- <a href="#portfolio" class="hover:text-primary transition-colors">Portfolio</a> -->
+<a href="#portfolio" class="hover:text-primary transition-colors">Portfolio</a>
 </div>
 <button class="md:hidden w-10 h-10 flex items-center justify-center cursor-pointer" id="menuBtn">
 <i class="ri-menu-line text-2xl"></i>
@@ -92,6 +92,55 @@ DEFAULT: '8px',
 <a href="Harshilpatel_230962194_CSE(AIML).pdf" download class="inline-flex items-center bg-primary text-white px-6 py-3 !rounded-button hover:bg-primary/90 transition-colors whitespace-nowrap cursor-pointer">
   <i class="ri-download-line mr-2"></i>Download Resume
 </a>
+<section id="portfolio" class="py-24 bg-gray-900">
+  <div class="container mx-auto px-6">
+    <h2 class="text-4xl font-bold mb-12 text-center">My Work</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- Project 1: Meal Cost Optimizer -->
+      <div class="bg-gray-800 rounded-xl overflow-hidden project-card relative">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">Meal Cost Optimizer (ML)</h3>
+          <p class="text-gray-300 mb-4">
+            A machine learning–based web app that optimizes meal planning by minimizing cost while maintaining nutrition. Built using Python, Streamlit, and scikit-learn.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="text-sm bg-gray-700 px-3 py-1 rounded-full">Python</span>
+            <span class="text-sm bg-gray-700 px-3 py-1 rounded-full">ML</span>
+            <span class="text-sm bg-gray-700 px-3 py-1 rounded-full">Streamlit</span>
+          </div>
+          <div class="flex space-x-4">
+            <a href="https://mealcostoptimiser.streamlit.app" target="_blank"
+               class="text-primary hover:underline">Live Demo</a>
+            <a href="https://github.com/Gotha8972/enhanced-meal-cost-optimiser-" target="_blank"
+               class="text-primary hover:underline">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: PushUp Lock App -->
+      <div class="bg-gray-800 rounded-xl overflow-hidden project-card relative">
+        <div class="p-6">
+          <h3 class="text-2xl font-semibold mb-2">PushUp Lock App</h3>
+          <p class="text-gray-300 mb-4">
+            An Android security app that unlocks the phone only after completing push-ups. Encourages fitness with device security.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="text-sm bg-gray-700 px-3 py-1 rounded-full">Android</span>
+            <span class="text-sm bg-gray-700 px-3 py-1 rounded-full">Java</span>
+            <span class="text-sm bg-gray-700 px-3 py-1 rounded-full">Mobile App</span>
+          </div>
+          <div class="flex space-x-4">
+            <a href="https://github.com/Gotha8972/Pushup-Lock-app" target="_blank"
+               class="text-primary hover:underline">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 </a>
 </div>
@@ -116,14 +165,6 @@ DEFAULT: '8px',
 <script>
 function showContactInfo() {
     alert("📞 Phone: +1234567890\n✉️ Email: your_email@example.com");
-}
-</script>
-
-
-<!-- JavaScript to Show Contact Info -->
-<script>
-function showContactInfo() {
-    alert("📞 Phone: +91 7383023381\n✉️ Email: patelharshil8972@gmail.com");
 }
 </script>
 
@@ -175,6 +216,7 @@ icon.classList.remove('ri-close-line');
 </script>
 </body>
 </html>
+
 
 
 
